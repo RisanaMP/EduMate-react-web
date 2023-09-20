@@ -1,0 +1,48 @@
+.member-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.member-container h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.member-container p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.member-form .form-group{
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex; /* Use flexbox to align label and input horizontally */
+    align-items: center; /* Align items vertically within the flex container */
+}
+
+.member-form label {
+    flex: 0 0 120px; /* Set a fixed width for the label */
+    font-size: 18px;
+}
+
+.member-form input {
+    flex: 1; /* Expand the input to take up remaining space */
+    padding: 8px;
+    font-size: 16px;
+}
+
+.member-form .submit-button {
+    text-align: center;
+}
+
+.member-form .submit-button button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+
+
+
+
